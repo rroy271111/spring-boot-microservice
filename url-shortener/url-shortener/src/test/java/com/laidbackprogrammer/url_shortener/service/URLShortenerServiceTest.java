@@ -27,7 +27,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @ContextConfiguration(classes = {URLShortenerService.class})
 @ExtendWith(SpringExtension.class)
 @DisabledInAotMode
-class URLShortenerServiceDiffblueTest {
+class URLShortenerServiceTest {
     @MockBean
     private URLMappingRepository uRLMappingRepository;
 
