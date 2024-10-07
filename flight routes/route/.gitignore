@@ -1,0 +1,24 @@
+# Maven wrapper (keep these only if needed)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore logs and other environment-specific files
+*.log
+.env
+
+# Ignore target (build) directories
+target/
+
+# Ignore build directories in submodules
+flight routes/**/target/
+
+# IDE-specific
+.vscode/
+.idea/
+*.iml
+*.ipr
+
+# OS-specific
+.DS_Store
+Thumbs.db
